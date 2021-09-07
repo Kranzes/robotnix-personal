@@ -1,0 +1,182 @@
+{
+  "nodes": {
+    "androidPkgs": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1623960850,
+        "narHash": "sha256-mh2sqnweuITV4kFIK6a8wEeeY999DIHLrFE8dU2JiTM=",
+        "owner": "tadfisher",
+        "repo": "android-nixpkgs",
+        "rev": "a68fee88e480673ac0cd4de9113ad222ae8efc5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tadfisher",
+        "ref": "stable",
+        "repo": "android-nixpkgs",
+        "type": "github"
+      }
+    },
+    "device_xiaomi_miatoll": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1629546995,
+        "narHash": "sha256-qNZ0u+cTa7degwyeefNjLGxrV9hgO7mW1pkVYn36+fs=",
+        "owner": "sairam1411",
+        "repo": "device_xiaomi_miatoll",
+        "rev": "54a1f71a9e1854f3fe75124db268c0a182198849",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sairam1411",
+        "repo": "device_xiaomi_miatoll",
+        "type": "github"
+      }
+    },
+    "device_xiaomi_sm6250-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630848453,
+        "narHash": "sha256-QKPYdNK2bfA7pVebfMCxEcOsvDzfn6v8zR6CVG5PKL4=",
+        "owner": "sairam1411",
+        "repo": "device_xiaomi_sm6250-common",
+        "rev": "5d2d1ade38daa9eed3801e67643612f63f991df1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sairam1411",
+        "repo": "device_xiaomi_sm6250-common",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "kernel_xiaomi_sm6250": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630494724,
+        "narHash": "sha256-LcFS2FCS0IQuxppln5ysF+LFccZnWSlTxmqiR36sSlE=",
+        "owner": "sairam1411",
+        "repo": "kernel_xiaomi_sm6250",
+        "rev": "45da20e15e638aabb4d59e8827f521f25542ef7f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sairam1411",
+        "repo": "kernel_xiaomi_sm6250",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1614989413,
+        "narHash": "sha256-g503bGSdVhLu2cKR5sHG8XetLFrVUzAL3+mrnQJpmdY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "102eb68ceecbbd32ab1906a53ef5a7269dc9794a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1623617138,
+        "narHash": "sha256-zd03k0aZWdE+JjZjVbsQGCKmc1C4HIwIbW7MbI9ym6s=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "93963c27b934f24289a94b9e3784d60a9b77e92c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "robotnix": {
+      "inputs": {
+        "androidPkgs": "androidPkgs",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1631032998,
+        "narHash": "sha256-N0F+M7k3k7VNp8f5RQMkqkEcHjWcJuoCxC2bl4geOX0=",
+        "owner": "Kranzes",
+        "repo": "robotnix-forklineageos",
+        "rev": "dc351624fa19663e4e9b5c924d61104c933b9c1b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kranzes",
+        "repo": "robotnix-forklineageos",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "device_xiaomi_miatoll": "device_xiaomi_miatoll",
+        "device_xiaomi_sm6250-common": "device_xiaomi_sm6250-common",
+        "kernel_xiaomi_sm6250": "kernel_xiaomi_sm6250",
+        "robotnix": "robotnix",
+        "vendor_xiaomi_miatoll": "vendor_xiaomi_miatoll",
+        "vendor_xiaomi_sm6250-common": "vendor_xiaomi_sm6250-common"
+      }
+    },
+    "vendor_xiaomi_miatoll": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1612570797,
+        "narHash": "sha256-Us5LMq7eAP0jwhBRHqdWYcPtunPlWjkXnNBdy52JCX0=",
+        "owner": "sairam1411",
+        "repo": "vendor_xiaomi_miatoll",
+        "rev": "4b9d12e74e1b3fa63948ef27021b1eadd1e531db",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sairam1411",
+        "repo": "vendor_xiaomi_miatoll",
+        "type": "github"
+      }
+    },
+    "vendor_xiaomi_sm6250-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1629547177,
+        "narHash": "sha256-8vCm6gOpgnjonpXa0ZQkiSeywJR4RicqbOOiu2DLOFE=",
+        "owner": "sairam1411",
+        "repo": "vendor_xiaomi_sm6250-common",
+        "rev": "621b61432703ae34700196519e592a9b7b0da0ef",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sairam1411",
+        "repo": "vendor_xiaomi_sm6250-common",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
