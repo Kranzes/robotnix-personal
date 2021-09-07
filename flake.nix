@@ -16,12 +16,25 @@
       device = "miatoll";
       flavor = "lineageos";
       androidVersion = 11;
-      buildDateTime = 1630871265;
 
-      #signing.enable = true;
-      #signing.keyStorePath = "/home/1TB-HDD/Android/robotnix/keys";
+      signing.enable = true;
+      signing.keyStorePath = "/home/1TB-HDD/Android/robotnix/keys";
 
-      #envVars.TARGET_FLOS = "true";
+      apps.bromite.enable = false;
+      apps.chromium.enable = false;
+
+      webview = {
+        chromium = {
+          enable = false;
+          availableByDefault = false;
+        };
+        bromite = {
+          enable = true;
+          availableByDefault = true;
+        };
+      };
+
+      microg.enable = true;
 
       source.dirs = {
         "device/xiaomi/miatoll".src = inputs.device_xiaomi_miatoll;
