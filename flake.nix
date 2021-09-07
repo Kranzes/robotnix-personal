@@ -31,6 +31,7 @@
         "kernel/xiaomi/sm6250".src = inputs.kernel_xiaomi_sm6250;
       };
     });
-    defaultPackage.x86_64-linux = self.robotnixConfigurations."miatoll".ota;
+    defaultPackage = self.robotnixConfigurations."miatoll".ota;
+    hydraJobs.miatoll = self.defaultPackage;
   };
 }
