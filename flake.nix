@@ -18,7 +18,7 @@
       androidVersion = 11;
 
       signing.enable = true;
-      signing.keyStorePath = "/home/1TB-HDD/Android/robotnix/keys";
+      signing.keyStorePath = "/home/1TB-HDD/Android/keys";
 
       apps.bromite.enable = false;
       apps.chromium.enable = false;
