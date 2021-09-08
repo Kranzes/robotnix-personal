@@ -12,7 +12,7 @@
   };
 
   outputs = { self, robotnix, ... }@inputs: {
-    robotnixConfigurations."miatoll" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
+    robotnixConfigurations."miatoll" = robotnix.lib.robotnixSystem ({ config, pkgs, lib, ... }: {
       device = "miatoll";
       flavor = "lineageos";
       androidVersion = 11;
@@ -35,6 +35,11 @@
       };
 
       microg.enable = true;
+
+      # needed for robotnix's microg module to work
+      source.dirs."frameworks/base".patches = lib.mkBefore [
+        ./patches/revert-forklineageos-microg.patch
+      ];
 
       source.dirs = {
         "device/xiaomi/miatoll".src = inputs.device_xiaomi_miatoll;
