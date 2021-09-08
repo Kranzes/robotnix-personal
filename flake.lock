@@ -23,11 +23,11 @@
     "device_xiaomi_miatoll": {
       "flake": false,
       "locked": {
-        "lastModified": 1629546995,
-        "narHash": "sha256-qNZ0u+cTa7degwyeefNjLGxrV9hgO7mW1pkVYn36+fs=",
+        "lastModified": 1631066204,
+        "narHash": "sha256-PMnOE0S7dNqVaJTcjSVnsDLOhOrrxYNI5ZN11AnAN54=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_miatoll",
-        "rev": "54a1f71a9e1854f3fe75124db268c0a182198849",
+        "rev": "ebbfb649db5e907d47ecc2eb7d04e9039dd81e0f",
         "type": "github"
       },
       "original": {
@@ -39,11 +39,11 @@
     "device_xiaomi_sm6250-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1630848453,
-        "narHash": "sha256-QKPYdNK2bfA7pVebfMCxEcOsvDzfn6v8zR6CVG5PKL4=",
+        "lastModified": 1631078491,
+        "narHash": "sha256-Kv6POCj0Nd2WuJKtUjYikK2e+2zDPc2ZOil+4VRdzz8=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_sm6250-common",
-        "rev": "5d2d1ade38daa9eed3801e67643612f63f991df1",
+        "rev": "1c285daf46875ba7ab767d82790bf5501eaf5af1",
         "type": "github"
       },
       "original": {
@@ -70,11 +70,11 @@
     "kernel_xiaomi_sm6250": {
       "flake": false,
       "locked": {
-        "lastModified": 1630494724,
-        "narHash": "sha256-LcFS2FCS0IQuxppln5ysF+LFccZnWSlTxmqiR36sSlE=",
+        "lastModified": 1631066430,
+        "narHash": "sha256-G1zhXxPRtL/KY0v0FFwLug0cCHH7wy2vmoH+V8P/QOg=",
         "owner": "sairam1411",
         "repo": "kernel_xiaomi_sm6250",
-        "rev": "45da20e15e638aabb4d59e8827f521f25542ef7f",
+        "rev": "3050aedbc6f6ae35a5e696af51ee84e073fd08b0",
         "type": "github"
       },
       "original": {
@@ -121,11 +121,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1631057174,
-        "narHash": "sha256-k4grq2N50+8ls/CfAcBTkBEvqnAo7cxQ8ogVC6395EE=",
+        "lastModified": 1631106362,
+        "narHash": "sha256-8pOORD07qjAZoS8mI+G2iOozV5Awv2tSKOfVCef//m0=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "7c82c5dcd92507e2d1e4c894b82e535a926d0455",
+        "rev": "cfdd5be4536bbce3454135bb9ee769630af8cfed",
         "type": "github"
       },
       "original": {
