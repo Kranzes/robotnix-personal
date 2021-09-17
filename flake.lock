@@ -70,11 +70,11 @@
     "kernel_xiaomi_sm6250": {
       "flake": false,
       "locked": {
-        "lastModified": 1631066430,
-        "narHash": "sha256-G1zhXxPRtL/KY0v0FFwLug0cCHH7wy2vmoH+V8P/QOg=",
+        "lastModified": 1631805599,
+        "narHash": "sha256-z+Sgn9Vv5xuVXl9LC6ml3zru9yHyGjmT2Ex9cbS+vg4=",
         "owner": "sairam1411",
         "repo": "kernel_xiaomi_sm6250",
-        "rev": "3050aedbc6f6ae35a5e696af51ee84e073fd08b0",
+        "rev": "1c1ec1b959c918571c6e701baa20670567f0f12e",
         "type": "github"
       },
       "original": {
@@ -121,11 +121,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1631567531,
-        "narHash": "sha256-zjbzQ7l0aTQ3M4XoMVkJQZlz1ppG6ckS/UyRUPe7KSk=",
+        "lastModified": 1631840499,
+        "narHash": "sha256-UWKzTMxrplPpoIj8wTWPL59npvA4QwiQ3hApVAyNLKs=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "140140501026ec2312346f392493a1579b518d8b",
+        "rev": "669f46a66969f399ca59341941acef740d6e51a2",
         "type": "github"
       },
       "original": {
