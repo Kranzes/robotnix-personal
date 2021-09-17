@@ -1,6 +1,9 @@
 {
   description = "A (not so) basic robotnix configuration";
 
+  nixConfig.extra-substituters = [ "https://robotnix.cachix.org" ];
+  nixConfig.extra-trusted-public-keys = [ "robotnix.cachix.org-1:+y88eX6KTvkJyernp1knbpttlaLTboVp4vq/b24BIv0=" ];
+
   inputs = {
     robotnix.url = "github:Kranzes/robotnix-forklineageos";
 
