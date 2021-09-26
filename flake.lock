@@ -121,11 +121,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1632001171,
-        "narHash": "sha256-S7VLZa6jxTWf8gjMy0vuc9Fz039ETA3G6IWsNEazGIg=",
+        "lastModified": 1632650802,
+        "narHash": "sha256-eEY+arNKIHMeFfUjXJ5CSfb5tH/69nbAsEmuoJJGEYw=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "b16744a5f02f9a69bb6f52efa6f6a71bbbe8d222",
+        "rev": "7a1f00990fdc9d3ab37184afae81a065a77ca2ec",
         "type": "github"
       },
       "original": {
