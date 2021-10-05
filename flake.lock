@@ -99,6 +99,22 @@
         "type": "github"
       }
     },
+    "nixpkgsUnstable": {
+      "locked": {
+        "lastModified": 1633080050,
+        "narHash": "sha256-T9I2WnlUzAIL70dk9V1jqaYk3nypy/cMkWR19S47ZHc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "82155ff501c7622cb2336646bb62f7624261f6d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1623617138,
@@ -118,14 +134,15 @@
     "robotnix": {
       "inputs": {
         "androidPkgs": "androidPkgs",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1633051484,
-        "narHash": "sha256-F9FQbLmhEs5fIqG+3cVUUc2pXnlBb10zwKW3Re7iJnY=",
+        "lastModified": 1633466944,
+        "narHash": "sha256-AZhWnirNH8hiswwV5n/jZ/0bwinjaHY+KkZ6/o1dKJk=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "77908667a835a78db754d016e24cb6e30a04605a",
+        "rev": "9052ccb9c9670fd795ea68f669320ed747c70686",
         "type": "github"
       },
       "original": {
