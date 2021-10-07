@@ -44,6 +44,11 @@
         ./patches/revert-forklineageos-microg.patch
       ];
 
+      apps = {
+        updater.enable = true;
+        updater.url = "https://ilanjoselevich.com/android/";
+      };
+
       source.dirs = {
         "device/xiaomi/miatoll".src = inputs.device_xiaomi_miatoll;
         "device/xiaomi/sm6250-common".src = inputs.device_xiaomi_sm6250-common;
@@ -52,6 +57,6 @@
         "kernel/xiaomi/sm6250".src = inputs.kernel_xiaomi_sm6250;
       };
     });
-    defaultPackage.x86_64-linux = self.robotnixConfigurations."miatoll".ota;
+    defaultPackage.x86_64-linux = self.robotnixConfigurations."miatoll".otaDir;
   };
 }
