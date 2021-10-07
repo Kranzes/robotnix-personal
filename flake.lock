@@ -138,11 +138,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1633640215,
-        "narHash": "sha256-CncxTAOUcGhHYJ90aHz9V1BA0DJ8jWBhrBXh6DWL+Ko=",
+        "lastModified": 1633641027,
+        "narHash": "sha256-6AaM4hRPwBnXd8OFyGJY6fSqSuoQyteQigImRfoOV8o=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "31b8fbbf787973fc4f83cc725ff7d3017fdff9b2",
+        "rev": "1bfc88ba816ab477f185291d455d80962abe9bd1",
         "type": "github"
       },
       "original": {
