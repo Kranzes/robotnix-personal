@@ -40,11 +40,11 @@
     "device_xiaomi_sm6250-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1630848453,
-        "narHash": "sha256-QKPYdNK2bfA7pVebfMCxEcOsvDzfn6v8zR6CVG5PKL4=",
+        "lastModified": 1635052220,
+        "narHash": "sha256-Jg/xFL1QKqvv27FCVy1MIMVX/iRvh+mBgbQots3PXOQ=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_sm6250-common",
-        "rev": "5d2d1ade38daa9eed3801e67643612f63f991df1",
+        "rev": "2aed8b34b0aafb1b29cfd20405fb76e56ad9ea79",
         "type": "github"
       },
       "original": {
@@ -86,11 +86,11 @@
     "kernel_xiaomi_sm6250": {
       "flake": false,
       "locked": {
-        "lastModified": 1633455631,
-        "narHash": "sha256-qr4XKpiAt60yXS91b7PdmOTCKVSDTBMi29XC1yy17BY=",
+        "lastModified": 1635011577,
+        "narHash": "sha256-k5BofDmafeclFnq0LLO4woFpd0xeXkL1C2xTYMpUwL0=",
         "owner": "sairam1411",
         "repo": "kernel_xiaomi_sm6250",
-        "rev": "64992bb22f6cabda0256fce96e753fb46aad4551",
+        "rev": "e0e6deebded3cb0ba7f616cd0c62623e2115d9e3",
         "type": "github"
       },
       "original": {
@@ -154,11 +154,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1634585528,
-        "narHash": "sha256-oe6864IHLEB3yUwXzGqgTlF0a/2B19fPIPZR2z4biXs=",
+        "lastModified": 1635108795,
+        "narHash": "sha256-4stfvfKIuii0SkoNV7iLRq3xIXTUhu57hyANaQMYTMY=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "f4f2cbe29b7698df6d535853e5463d74aad6f69a",
+        "rev": "d2f674adb1de321e7b2122e27e09b3143e2edf9a",
         "type": "github"
       },
       "original": {
@@ -196,11 +196,11 @@
     "vendor_xiaomi_sm6250-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1633196083,
-        "narHash": "sha256-sEzpqebM+J6uW7CsECCVJM12JFeYxAQ4d4mF0LSTA38=",
+        "lastModified": 1635010137,
+        "narHash": "sha256-dKTbISHmXKt0YXXavAJ0lNLVypvNXDklbbtri3NiGos=",
         "owner": "sairam1411",
         "repo": "vendor_xiaomi_sm6250-common",
-        "rev": "f6a948eafeb4cea15d09da8e5679a68417563bf8",
+        "rev": "a2173c58c8867cf9b8a3e10da7f19d3bbf046012",
         "type": "github"
       },
       "original": {
