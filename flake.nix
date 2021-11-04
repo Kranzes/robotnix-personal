@@ -39,10 +39,21 @@
 
       microg.enable = true;
 
-      # needed for robotnix's microg module to work
-      source.dirs."frameworks/base".patches = lib.mkBefore [
-        ./patches/revert-forklineageos-microg.patch
-      ];
+      source.dirs = {
+        # Needed for robotnix's microg module to work
+        "frameworks/base".patches = [
+          ./patches/revert-forklineageos-microg.patch
+        ];
+        # Re-enable building of OTA updater
+        "vendor/lineage".patches = [
+          (pkgs.fetchpatch {
+            name = "re-enable-updater-building.patch";
+            url = "https://github.com/ForkLineageOS/android_vendor_lineage/commit/55cad6d27fbd82b195a7cc85ade6ffd37a3c4fa6.patch";
+            sha256 = "sha256-qwboQhbBEIOCwCCF4rGKe6nCdjhg9HHs9IKh6br4JyA=";
+            revert = true;
+          })
+        ];
+      };
 
       apps = {
         updater.enable = true;
