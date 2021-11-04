@@ -24,11 +24,11 @@
     "device_xiaomi_miatoll": {
       "flake": false,
       "locked": {
-        "lastModified": 1633445899,
-        "narHash": "sha256-bRHdNs4IFQWZ7e9eHEdPy5bVuPCKyF2p4DAsJ0HfYIo=",
+        "lastModified": 1635653759,
+        "narHash": "sha256-925tklhkmSE4O/ffTQvi4VXbkBcndkbOrwjJPI/WsDo=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_miatoll",
-        "rev": "3dbe8af246370b5b292c16d13d7a7912659d8005",
+        "rev": "ef66528278a4c2d348188fa3b2db0e15972b76d1",
         "type": "github"
       },
       "original": {
@@ -40,11 +40,11 @@
     "device_xiaomi_sm6250-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1635052220,
-        "narHash": "sha256-Jg/xFL1QKqvv27FCVy1MIMVX/iRvh+mBgbQots3PXOQ=",
+        "lastModified": 1635946644,
+        "narHash": "sha256-YMa+wrFC4Os/7SMYlNmMkUv/yXdnF7Mr8rAcZqapG7c=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_sm6250-common",
-        "rev": "2aed8b34b0aafb1b29cfd20405fb76e56ad9ea79",
+        "rev": "df4dbe518d933e781dc5d6c73d8875371ab75464",
         "type": "github"
       },
       "original": {
@@ -86,11 +86,11 @@
     "kernel_xiaomi_sm6250": {
       "flake": false,
       "locked": {
-        "lastModified": 1635011577,
-        "narHash": "sha256-k5BofDmafeclFnq0LLO4woFpd0xeXkL1C2xTYMpUwL0=",
+        "lastModified": 1635265503,
+        "narHash": "sha256-0zVK0kK4MyDGMoX7L8TAY6kFNkXpBw/9XhnN6jRqnCQ=",
         "owner": "sairam1411",
         "repo": "kernel_xiaomi_sm6250",
-        "rev": "e0e6deebded3cb0ba7f616cd0c62623e2115d9e3",
+        "rev": "b8288d4acbb941d85d1dde6507c738b2044a7e7f",
         "type": "github"
       },
       "original": {
@@ -154,11 +154,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1635108795,
-        "narHash": "sha256-4stfvfKIuii0SkoNV7iLRq3xIXTUhu57hyANaQMYTMY=",
+        "lastModified": 1636023054,
+        "narHash": "sha256-YUV3ENTgrllQbm9r5ko1CH2ctjiEh66Xiy7bONPo1zA=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "d2f674adb1de321e7b2122e27e09b3143e2edf9a",
+        "rev": "5331dd3748451a99962c1c4920259f024742ea5a",
         "type": "github"
       },
       "original": {
