@@ -24,11 +24,11 @@
     "device_xiaomi_miatoll": {
       "flake": false,
       "locked": {
-        "lastModified": 1636041564,
-        "narHash": "sha256-JtywBrYz318Qnr4qB1FnWPnyQqeXVMjvpCh8iOHEWIU=",
+        "lastModified": 1636811252,
+        "narHash": "sha256-ez9+ahXUKLooJytHsONCFSpoMY+tkpA1TwGFAGXFeOE=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_miatoll",
-        "rev": "b9d8383d7f3d9114e0f9b507dbcf3079cb540eb1",
+        "rev": "9ba2d519c2ab688b74c6b4118bb265bd1f2de507",
         "type": "github"
       },
       "original": {
@@ -154,11 +154,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1636023054,
-        "narHash": "sha256-YUV3ENTgrllQbm9r5ko1CH2ctjiEh66Xiy7bONPo1zA=",
+        "lastModified": 1636812765,
+        "narHash": "sha256-HMYxhfA55gkVnlHbXgs46Mg7YnSZHNLjaCori/9b/s8=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "5331dd3748451a99962c1c4920259f024742ea5a",
+        "rev": "bc2c591d2bf8c13ea86b129cb0362d56fe361ed4",
         "type": "github"
       },
       "original": {
