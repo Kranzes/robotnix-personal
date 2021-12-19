@@ -24,11 +24,11 @@
     "device_xiaomi_miatoll": {
       "flake": false,
       "locked": {
-        "lastModified": 1638010137,
-        "narHash": "sha256-cuVAQfpopa9+R33UrGGAA+mDyyGBbrELYB0Te3bFsZE=",
+        "lastModified": 1639894735,
+        "narHash": "sha256-cdJEqfDWawc9rKKTWcXtdiVKcczb9MCjUv66LFRGZfU=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_miatoll",
-        "rev": "68ee836af4235cbf8dbb46bc90de24b5dfc5ff38",
+        "rev": "97dbcc6e9ae9f6ad09e7134a26a19a835e876bfc",
         "type": "github"
       },
       "original": {
@@ -40,11 +40,11 @@
     "device_xiaomi_sm6250-common": {
       "flake": false,
       "locked": {
-        "lastModified": 1637471228,
-        "narHash": "sha256-AftiHehVQnMSiOUYsxacfVSUH0x+8+bNrEAxyqlUPl0=",
+        "lastModified": 1639895263,
+        "narHash": "sha256-dV1L1OyE3tN9GWqGxKOz/PG6ckZ5DiEvJYa+RGV5DRQ=",
         "owner": "sairam1411",
         "repo": "device_xiaomi_sm6250-common",
-        "rev": "6d1575900d488d4d3921191c4dac98f3fef93948",
+        "rev": "4099b11a683380e9b2096433c25bd0ad42a9d2fc",
         "type": "github"
       },
       "original": {
