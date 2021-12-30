@@ -68,37 +68,6 @@
         "type": "github"
       }
     },
-    "flake-compat": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1627913399,
-        "narHash": "sha256-hY8g6H2KFL8ownSiFeMOjwPC8P0ueXpCVEbxgda3pko=",
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "rev": "12c64ca55c1014cdc1b16ed5a804aa8576601ff2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "type": "github"
-      }
-    },
-    "flake-compat-ci": {
-      "locked": {
-        "lastModified": 1638753619,
-        "narHash": "sha256-uJoNBfbXkn17W5PIrtQDPEk+zfN91oOB9I9XF9pOTmo=",
-        "owner": "hercules-ci",
-        "repo": "flake-compat-ci",
-        "rev": "e950b4e71c711f3311cbf6323394c0aff7b7e4ec",
-        "type": "github"
-      },
-      "original": {
-        "owner": "hercules-ci",
-        "repo": "flake-compat-ci",
-        "type": "github"
-      }
-    },
     "flake-utils": {
       "locked": {
         "lastModified": 1638122382,
@@ -185,11 +154,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1640008823,
-        "narHash": "sha256-issQqNenJ9MG+jRolCvnmfC0veqQlTpWe8lRNHKziUw=",
+        "lastModified": 1639864515,
+        "narHash": "sha256-dB53b3jU1scHsVMoFlhs41Ja0pR7jHUHCAi1h5jElYU=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "5ee0d223001981d995259999c98f56c788c64e09",
+        "rev": "dc0ce35b82c9521f0235d46d8747310a118c40fc",
         "type": "github"
       },
       "original": {
@@ -202,8 +171,6 @@
       "inputs": {
         "device_xiaomi_miatoll": "device_xiaomi_miatoll",
         "device_xiaomi_sm6250-common": "device_xiaomi_sm6250-common",
-        "flake-compat": "flake-compat",
-        "flake-compat-ci": "flake-compat-ci",
         "kernel_xiaomi_sm6250": "kernel_xiaomi_sm6250",
         "robotnix": "robotnix",
         "vendor_xiaomi_miatoll": "vendor_xiaomi_miatoll",

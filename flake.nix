@@ -6,16 +6,15 @@
 
   inputs = {
     robotnix.url = "github:Kranzes/robotnix-forklineageos";
+
     device_xiaomi_miatoll = { url = "github:sairam1411/device_xiaomi_miatoll"; flake = false; };
     device_xiaomi_sm6250-common = { url = "github:sairam1411/device_xiaomi_sm6250-common"; flake = false; };
     vendor_xiaomi_miatoll = { url = "github:sairam1411/vendor_xiaomi_miatoll"; flake = false; };
     vendor_xiaomi_sm6250-common = { url = "github:sairam1411/vendor_xiaomi_sm6250-common"; flake = false; };
     kernel_xiaomi_sm6250 = { url = "github:sairam1411/kernel_xiaomi_sm6250"; flake = false; };
-    flake-compat-ci.url = "github:hercules-ci/flake-compat-ci";
-    flake-compat = { url = "github:edolstra/flake-compat"; flake = false; };
   };
 
-  outputs = { self, robotnix, flake-compat, flake-compat-ci, ... }@inputs: {
+  outputs = { self, robotnix, ... }@inputs: {
     robotnixConfigurations."miatoll" = robotnix.lib.robotnixSystem ({ config, pkgs, lib, ... }: {
       device = "miatoll";
       flavor = "lineageos";
@@ -70,6 +69,5 @@
       };
     });
     defaultPackage.x86_64-linux = self.robotnixConfigurations."miatoll".otaDir;
-    ciNix = flake-compat-ci.lib.recurseIntoFlakeWith { flake = self; systems = [ "x86_64-linux" ]; };
   };
 }
