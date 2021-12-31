@@ -6,12 +6,12 @@
 
   inputs = {
     robotnix.url = "github:Kranzes/robotnix-forklineageos";
-
     device_xiaomi_miatoll = { url = "github:sairam1411/device_xiaomi_miatoll"; flake = false; };
     device_xiaomi_sm6250-common = { url = "github:sairam1411/device_xiaomi_sm6250-common"; flake = false; };
     vendor_xiaomi_miatoll = { url = "github:sairam1411/vendor_xiaomi_miatoll"; flake = false; };
     vendor_xiaomi_sm6250-common = { url = "github:sairam1411/vendor_xiaomi_sm6250-common"; flake = false; };
     kernel_xiaomi_sm6250 = { url = "github:sairam1411/kernel_xiaomi_sm6250"; flake = false; };
+    hosts = { url = "github:StevenBlack/hosts"; flake = false; };
   };
 
   outputs = { self, robotnix, ... }@inputs: {
@@ -38,6 +38,8 @@
       };
 
       microg.enable = true;
+
+      hosts = inputs.hosts + "/hosts";
 
       source.dirs = {
         # Needed for robotnix's microg module to work
