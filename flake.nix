@@ -6,10 +6,10 @@
 
   inputs = {
     robotnix.url = "github:Kranzes/robotnix-forklineageos";
-    device_xiaomi_miatoll = { url = "github:sairam1411/device_xiaomi_miatoll"; flake = false; };
-    device_xiaomi_sm6250-common = { url = "github:sairam1411/device_xiaomi_sm6250-common"; flake = false; };
-    vendor_xiaomi_miatoll = { url = "github:sairam1411/vendor_xiaomi_miatoll"; flake = false; };
-    vendor_xiaomi_sm6250-common = { url = "github:sairam1411/vendor_xiaomi_sm6250-common"; flake = false; };
+    device_xiaomi_miatoll = { url = "github:sairam1411/device_xiaomi_miatoll/eleven"; flake = false; };
+    device_xiaomi_sm6250-common = { url = "github:sairam1411/device_xiaomi_sm6250-common/eleven"; flake = false; };
+    vendor_xiaomi_miatoll = { url = "github:sairam1411/vendor_xiaomi_miatoll/eleven"; flake = false; };
+    vendor_xiaomi_sm6250-common = { url = "github:sairam1411/vendor_xiaomi_sm6250-common/eleven"; flake = false; };
     kernel_xiaomi_sm6250 = { url = "github:sairam1411/kernel_xiaomi_sm6250"; flake = false; };
     hosts = { url = "github:StevenBlack/hosts"; flake = false; };
   };
