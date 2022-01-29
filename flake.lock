@@ -33,6 +33,7 @@
       },
       "original": {
         "owner": "sairam1411",
+        "ref": "eleven",
         "repo": "device_xiaomi_miatoll",
         "type": "github"
       }
@@ -49,6 +50,7 @@
       },
       "original": {
         "owner": "sairam1411",
+        "ref": "eleven",
         "repo": "device_xiaomi_sm6250-common",
         "type": "github"
       }
@@ -86,11 +88,11 @@
     "hosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1640891047,
-        "narHash": "sha256-Wac3CCbMVxWiV58JFm2UT9Pc5jwhbPALcn8ls8BYSlM=",
+        "lastModified": 1643424958,
+        "narHash": "sha256-1HxOzOB6/2oQIGZWSMEFK0PvBM2cEtshszJDJDtBK14=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "957a13c7f30b50e7ef2193223a1e616579a7b3de",
+        "rev": "21867a5b3e32b60903a5073601b7d6084a9955f9",
         "type": "github"
       },
       "original": {
@@ -102,11 +104,11 @@
     "kernel_xiaomi_sm6250": {
       "flake": false,
       "locked": {
-        "lastModified": 1640886293,
-        "narHash": "sha256-mgIRgkDd7pj+QcNkPeqPLkYTOUls4Znmo3hnlXWN9dE=",
+        "lastModified": 1641740256,
+        "narHash": "sha256-6K28oX2kLXF77wCwrUTyDleWisieBrAxKZpG94ZvLc8=",
         "owner": "sairam1411",
         "repo": "kernel_xiaomi_sm6250",
-        "rev": "e4e7794c614c2aa10579e38562a976e1170f494c",
+        "rev": "24056826d1d7dfc2a44a55a5d41ab5f8ca8cd76e",
         "type": "github"
       },
       "original": {
@@ -170,11 +172,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1640908236,
-        "narHash": "sha256-c40cpkA4HuJakqGMuaNKEeLLIME/xo0mTS6kiY3TVoM=",
+        "lastModified": 1643499007,
+        "narHash": "sha256-0GP0X+ADWVy6szbZmxlf87YejKX0zRyvtxQ9DUxTKjE=",
         "owner": "Kranzes",
         "repo": "robotnix-forklineageos",
-        "rev": "8918090fa1f45a6760bd5ece4eb88630bffa432e",
+        "rev": "ede913d5c9f995c387b434886637b833c24556f6",
         "type": "github"
       },
       "original": {
@@ -206,6 +208,7 @@
       },
       "original": {
         "owner": "sairam1411",
+        "ref": "eleven",
         "repo": "vendor_xiaomi_miatoll",
         "type": "github"
       }
@@ -222,6 +225,7 @@
       },
       "original": {
         "owner": "sairam1411",
+        "ref": "eleven",
         "repo": "vendor_xiaomi_sm6250-common",
         "type": "github"
       }
