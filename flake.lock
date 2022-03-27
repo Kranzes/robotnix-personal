@@ -21,6 +21,27 @@
         "type": "github"
       }
     },
+    "androidPkgs_2": {
+      "inputs": {
+        "devshell": "devshell_2",
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1638562808,
+        "narHash": "sha256-nnGyBugMQo9WweTgpfPbJu0fHnRtxvsPQ9el2D3wPrY=",
+        "owner": "tadfisher",
+        "repo": "android-nixpkgs",
+        "rev": "a191ab6adb019b09d3bb919bb98dca31d83519d5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tadfisher",
+        "ref": "stable",
+        "repo": "android-nixpkgs",
+        "type": "github"
+      }
+    },
     "device_xiaomi_miatoll": {
       "flake": false,
       "locked": {
@@ -70,6 +91,21 @@
         "type": "github"
       }
     },
+    "devshell_2": {
+      "locked": {
+        "lastModified": 1637575296,
+        "narHash": "sha256-ZY8YR5u8aglZPe27+AJMnPTG6645WuavB+w0xmhTarw=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "0e56ef21ba1a717169953122c7415fa6a8cd2618",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1638122382,
@@ -85,14 +121,49 @@
         "type": "github"
       }
     },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1638122382,
+        "narHash": "sha256-sQzZzAbvKEqN9s0bzWuYmRaA03v40gaJ4+iL1LXjaeI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "74f7e4319258e287b0f9cb95426c9853b282730b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flos-robotnix": {
+      "inputs": {
+        "androidPkgs": "androidPkgs",
+        "nixpkgs": "nixpkgs_2",
+        "nixpkgsUnstable": "nixpkgsUnstable"
+      },
+      "locked": {
+        "lastModified": 1644928087,
+        "narHash": "sha256-Lm7nioQhh/J9qZoWgQAOv+nBc4uDa2hKo3+9394WTWU=",
+        "owner": "Kranzes",
+        "repo": "robotnix",
+        "rev": "f4377d606dedfb91866882094402b423a93a1b0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Kranzes",
+        "repo": "robotnix",
+        "type": "github"
+      }
+    },
     "hosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1643424958,
-        "narHash": "sha256-1HxOzOB6/2oQIGZWSMEFK0PvBM2cEtshszJDJDtBK14=",
+        "lastModified": 1644796937,
+        "narHash": "sha256-BIUJkEs54cr5mSTKHmoToJeeI8hIC5R22bGji8bjcJY=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "21867a5b3e32b60903a5073601b7d6084a9955f9",
+        "rev": "824cd374f25425ef3927dadb8b083602b29a8d9e",
         "type": "github"
       },
       "original": {
@@ -149,7 +220,55 @@
         "type": "github"
       }
     },
+    "nixpkgsUnstable_2": {
+      "locked": {
+        "lastModified": 1638376152,
+        "narHash": "sha256-ucgLpVqhFnClH7YRUHBHnmiOd82RZdFR3XJt36ks5fE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6daa4a5c045d40e6eae60a3b6e427e8700f1c07f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1638371214,
+        "narHash": "sha256-0kE6KhgH7n0vyuX4aUoGsGIQOqjIx2fJavpCWtn73rc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a640d8394f34714578f3e6335fc767d0755d78f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1637841632,
+        "narHash": "sha256-QYqiKHdda0EOnLGQCHE+GluD/Lq2EJj4hVTooPM55Ic=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "73369f8d0864854d1acfa7f1e6217f7d6b6e3fa1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
       "locked": {
         "lastModified": 1638371214,
         "narHash": "sha256-0kE6KhgH7n0vyuX4aUoGsGIQOqjIx2fJavpCWtn73rc=",
@@ -167,21 +286,22 @@
     },
     "robotnix": {
       "inputs": {
-        "androidPkgs": "androidPkgs",
-        "nixpkgs": "nixpkgs_2",
-        "nixpkgsUnstable": "nixpkgsUnstable"
+        "androidPkgs": "androidPkgs_2",
+        "nixpkgs": "nixpkgs_4",
+        "nixpkgsUnstable": "nixpkgsUnstable_2"
       },
       "locked": {
-        "lastModified": 1643499007,
-        "narHash": "sha256-0GP0X+ADWVy6szbZmxlf87YejKX0zRyvtxQ9DUxTKjE=",
+        "lastModified": 1644356096,
+        "narHash": "sha256-Ei/N/K8kFi6erLpEEVi6NxLeZPSpztL5eu6zNM2B6nI=",
         "owner": "Kranzes",
-        "repo": "robotnix-forklineageos",
-        "rev": "ede913d5c9f995c387b434886637b833c24556f6",
+        "repo": "robotnix",
+        "rev": "84adf66d6ef1e8e4173468d8bee72fd5e1419067",
         "type": "github"
       },
       "original": {
         "owner": "Kranzes",
-        "repo": "robotnix-forklineageos",
+        "ref": "lineageupdate",
+        "repo": "robotnix",
         "type": "github"
       }
     },
@@ -189,8 +309,13 @@
       "inputs": {
         "device_xiaomi_miatoll": "device_xiaomi_miatoll",
         "device_xiaomi_sm6250-common": "device_xiaomi_sm6250-common",
+        "flos-robotnix": "flos-robotnix",
         "hosts": "hosts",
         "kernel_xiaomi_sm6250": "kernel_xiaomi_sm6250",
+        "nixpkgs": [
+          "robotnix",
+          "nixpkgs"
+        ],
         "robotnix": "robotnix",
         "vendor_xiaomi_miatoll": "vendor_xiaomi_miatoll",
         "vendor_xiaomi_sm6250-common": "vendor_xiaomi_sm6250-common"
