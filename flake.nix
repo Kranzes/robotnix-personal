@@ -5,7 +5,7 @@
   nixConfig.extra-trusted-public-keys = [ "robotnix.cachix.org-1:+y88eX6KTvkJyernp1knbpttlaLTboVp4vq/b24BIv0=" ];
 
   inputs = {
-    robotnix.url = "github:Kranzes/robotnix/lineageupdate";
+    robotnix.url = "github:danielfullmer/robotnix";
     flos-robotnix.url = "github:Kranzes/robotnix";
     nixpkgs.follows = "robotnix/nixpkgs";
     device_xiaomi_miatoll = { url = "github:sairam1411/device_xiaomi_miatoll/eleven"; flake = false; };
@@ -18,7 +18,7 @@
 
   outputs = { self, robotnix, flos-robotnix, nixpkgs, ... }@inputs:
     let
-      common = { config, pkgs, lib, ... }: {
+      common = {
         signing.enable = true;
         signing.keyStorePath = "/home/1TB-HDD/Android/keys";
 
@@ -26,7 +26,7 @@
           bromite.enable = false;
           chromium.enable = false;
           updater.enable = true;
-          updater.url = "https://ilanjoselevich.com/android/";
+          updater.url = "https://android.ilanjoselevich.com";
         };
 
         webview = {
@@ -42,7 +42,7 @@
       };
     in
     {
-      robotnixConfigurations."miatoll" = flos-robotnix.lib.robotnixSystem ({ config, pkgs, lib, ... }: {
+      robotnixConfigurations."miatoll" = flos-robotnix.lib.robotnixSystem ({ pkgs, ... }: {
         imports = [ common ];
         device = "miatoll";
         flavor = "lineageos";
@@ -50,6 +50,7 @@
 
         source.dirs = {
           "frameworks/base".patches = [ ./patches/revert-forklineageos-microg.patch ]; # Needed for robotnix's microg module to work
+          "device/xiaomi/miatoll".patches = [ ./patches/RKQ1-200826-002.patch ]; # Fingerprint
           "vendor/lineage".patches = [
             # Re-enable building of OTA updater
             (pkgs.fetchpatch {
@@ -57,13 +58,6 @@
               url = "https://github.com/ForkLineageOS/android_vendor_lineage/commit/55cad6d27fbd82b195a7cc85ade6ffd37a3c4fa6.patch";
               sha256 = "sha256-qwboQhbBEIOCwCCF4rGKe6nCdjhg9HHs9IKh6br4JyA=";
               revert = true;
-            })
-          ];
-          "device/xiaomi/miatoll".patches = [
-            (pkgs.fetchpatch {
-              name = "january-fingerprint.patch";
-              url = "https://github.com/sairam1411/device_xiaomi_miatoll/commit/5534b9f8306a924bff16b54848c02fb434311b3d.patch";
-              sha256 = "sha256-hSsr9uwJHl1kpaLd1As1mDuqV+UNcgHDVYyd5hBXF8o=";
             })
           ];
           "device/xiaomi/miatoll".src = inputs.device_xiaomi_miatoll;
@@ -74,17 +68,18 @@
         };
       });
 
-      robotnixConfigurations."ginkgo" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
+      robotnixConfigurations."ginkgo" = robotnix.lib.robotnixSystem {
         imports = [ common ];
         device = "ginkgo";
         flavor = "lineageos";
-        androidVersion = 10;
-      });
+        androidVersion = 11;
+      };
 
       defaultPackage.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.symlinkJoin {
         name = "robotnix-ota";
         paths = (with self.robotnixConfigurations; map (c: c.otaDir) [
           miatoll
+          ginkgo
         ]);
       };
     };

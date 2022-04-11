@@ -1,0 +1,15 @@
+diff --git a/init/init.cpp b/init/init.cpp
+index d3b86ad..1df4a0c 100644
+--- a/init/init.cpp
++++ b/init/init.cpp
+@@ -60,8 +60,8 @@ void set_device_props(const std::string brand, const std::string device, const s
+ }
+ 
+ void load_device_properties() {
+-    property_override("ro.build.fingerprint", "google/raven/raven:12/SQ1D.211205.017/7955197:user/release-keys");
+-    property_override("ro.build.description", "raven-user 12 SQ1D.211205.016.A1 7957957 release-keys");
++    property_override("ro.build.fingerprint", "Redmi/joyeuse_global/joyeuse:11/RKQ1.200826.002/V12.5.5.0.RJZMIXM:user/release-keys");
++    property_override("ro.build.description", "joyeuse_global-user 11 RKQ1.200826.002 V12.5.5.0.RJZMIXM release-keys");
+     std::string hwname = GetProperty("ro.boot.hwname", "");
+     std::string region = GetProperty("ro.boot.hwc", "");
+ 

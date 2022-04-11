@@ -143,11 +143,11 @@
         "nixpkgsUnstable": "nixpkgsUnstable"
       },
       "locked": {
-        "lastModified": 1644928087,
-        "narHash": "sha256-Lm7nioQhh/J9qZoWgQAOv+nBc4uDa2hKo3+9394WTWU=",
+        "lastModified": 1649797520,
+        "narHash": "sha256-eOPNRkesZaVXZj1hJDJeqZso20JcCUdkqKudkJXKiLA=",
         "owner": "Kranzes",
         "repo": "robotnix",
-        "rev": "f4377d606dedfb91866882094402b423a93a1b0f",
+        "rev": "94c02fdcbc656f94c6ccade19e5e988642447487",
         "type": "github"
       },
       "original": {
@@ -159,11 +159,11 @@
     "hosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1644796937,
-        "narHash": "sha256-BIUJkEs54cr5mSTKHmoToJeeI8hIC5R22bGji8bjcJY=",
+        "lastModified": 1649515410,
+        "narHash": "sha256-wLqp2iD9z4RM2ELyfzzQ9xdmPUiKiKUA6irPvIOK/fU=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "824cd374f25425ef3927dadb8b083602b29a8d9e",
+        "rev": "0d99f8f6d0e3b63fd456aaaf0feaaba8921d5de8",
         "type": "github"
       },
       "original": {
@@ -291,16 +291,15 @@
         "nixpkgsUnstable": "nixpkgsUnstable_2"
       },
       "locked": {
-        "lastModified": 1644356096,
-        "narHash": "sha256-Ei/N/K8kFi6erLpEEVi6NxLeZPSpztL5eu6zNM2B6nI=",
-        "owner": "Kranzes",
+        "lastModified": 1649742436,
+        "narHash": "sha256-2ksrbbUr83BRDQ3TXpZMUTVbk6lltIEQ2lJge4namJo=",
+        "owner": "danielfullmer",
         "repo": "robotnix",
-        "rev": "84adf66d6ef1e8e4173468d8bee72fd5e1419067",
+        "rev": "a9db619cf508ebdc4ca9155d9b1d6fa45fe51596",
         "type": "github"
       },
       "original": {
-        "owner": "Kranzes",
-        "ref": "lineageupdate",
+        "owner": "danielfullmer",
         "repo": "robotnix",
         "type": "github"
       }
